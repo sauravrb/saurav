@@ -828,7 +828,7 @@ a.main-color-bg:focus, a.main-color-bg:hover {
     border: 1px solid transparent;
 }
 .about-content .nav-tabs li.active a, .about-content .nav-tabs li.active a:focus, .about-content .nav-tabs li.active a:hover {
-    background-color: inherit;
+    background-color: lightgrey;
     color: inherit;
     -webkit-box-shadow: 0 6px 40px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 6px 40px rgba(0, 0, 0, .2);
@@ -972,7 +972,7 @@ a.main-color-bg:focus, a.main-color-bg:hover {
     margin: 16px 0 0;
 }
 .single-hobbie:hover {
-    background-color: inherit;
+    background-color: lightgrey;
 }
 .single-hobbie:hover .hobbie-icon {
     -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, .4);
@@ -1126,7 +1126,7 @@ a.main-color-bg:focus, a.main-color-bg:hover {
 }
 #work-list li .filter-active {
     color: #fafafa;
-    background-color: inherit;
+    background-color: lightgrey;
 }
 .filtered {
     opacity: 0;
@@ -1346,7 +1346,7 @@ a.main-color-bg:focus, a.main-color-bg:hover {
     bottom: 0;
     width: 136px;
     height: 2px;
-    background-color: inherit;
+    background-color: lightgrey;
 }
 .single-blog:hover .border-animation .blog-line {
     width: 100%}

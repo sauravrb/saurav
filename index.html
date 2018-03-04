@@ -1,813 +1,875 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- SITE TITLE -->
-    <title>Saurav Rajbahak</title>
-    <meta name="description" content="Bamboo - Personal Parallax Portfolio Template">
+<head>
+    <meta charset="utf-8" />
+    <title>Lina - Creative vCard, Resume, CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.animatedheadline.css" />
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/skins/orange.css" />
 
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldrenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+	<link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+	<link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
 
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Template JS Files -->
+    <script src="js/modernizr.custom.js"></script>
 
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
 
-    <!-- ETLINE FONT -->
-    <link rel="stylesheet" type="text/css" href="css/etlinefont.min.css">
-
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i%7cYellowtail" rel="stylesheet">
-
-	<!-- Favicon -->
-	<link rel="icon" href="img/Logo.png">
-
-	<!-- Touch Icons - iOS and Android 2.1+ -->
- 	<link rel="apple-touch-icon" href="img/apple-favicon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone4.png" />
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-  <body>
-
-    <!-- Loader -->
-    <div class="loader-con">
-		<div class="ball ball-1"><span class="main-color-bg"></span></div>
-		<div class="ball ball-2"><span class="main-color-bg"></span></div>
-		<div class="ball ball-3"><span class="main-color-bg"></span></div>
+<body>
+    <!-- Preloader Start -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
     </div>
-    <!-- End Loader  -->
-
-    <!-- MAIN NAVIGATION BAR -->
-    <header class="nav-wrapper effect">
-      <nav class="navbar-custom">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand effect" href="">
-                <img src="img/Logo.png" alt="brand-img">
-            </a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-navbar">
-
-            <ul class="nav navbar-nav navbar-right">
-              <li class="main-color"><a href="#home" class="scroll effect active" data-speed="800">HOME</a></li>
-              <li class="main-color"><a href="#about" class="scroll effect" data-speed="1000">ABOUT</a></li>
-              <li class="main-color"><a href="#services" class="scroll effect" data-speed="1400">SERVICES</a></li>
-              <li class="main-color"><a href="#work" class="scroll effect" data-speed="1400">WORK</a></li>
-              <li class="main-color"><a href="#news" class="scroll effect" data-speed="1500">NEWS</a></li>
-              <!-- <li class="main-color"><a href="#contact" class="scroll effect" data-speed="1600">CONTACT</a></li> -->
+    <!-- Preloader Ends -->
+    <!-- Live Style Switcher Starts - demo only -->
+    <div id="switcher" class="">
+        <div class="content-switcher">
+            <h4>STYLE SWITCHER</h4>
+            <ul>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="images/styleswitcher/purple.png" alt="purple"/></a>
+                </li>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="images/styleswitcher/red.png" alt="red"/></a>
+                </li>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="images/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+                </li>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="images/styleswitcher/blue.png" alt="blue"/></a>
+                </li>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="images/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+                </li>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="images/styleswitcher/magenta.png" alt="magenta"/></a>
+                </li>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="images/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+                </li>
+                <li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="images/styleswitcher/orange.png" alt="orange"/></a>
+                </li>
+				<li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="images/styleswitcher/green.png" alt="green"/></a>
+                </li>
+				<li>
+                    <a href="index-light.html#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="images/styleswitcher/yellow.png" alt="yellow"/></a>
+                </li>
             </ul>
+			<h4>BODY SKIN</h4>
 
-          </div><!-- End navbar-collapse -->
-        </div><!-- End container -->
-      </nav>
-    </header>
-    <!-- END MAIN NAVIGATION BAR -->
-
-    <!-- HOME -->
-    <section id="home" class="home-1 parallax section one-page-section">
-        <div class="page-table">
-            <div class="table-cell text-center">
-                <h2>Saurav Rajbahak</h2>
-                <h1 class="typer-title">I'm Software Developer</h1>
-                <div class="home-social">
-                    <ul class="home-social-list">
-                        <li class="main-color">
-                            <a class="effect" href="https://www.facebook.com/sauravrb"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="main-color">
-                            <a class="effect" href="https://twitter.com/SauravRajbahak"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="main-color">    
-                            <a class="effect" href="https://www.pinterest.com/sauravrajbahak/"><i class="fa fa-pinterest-p"></i></a>
-                        </li>
-                        <li class="main-color">
-                            <a class="effect" href="https://www.linkedin.com/in/saurav-rajbahak-b9106815a/"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li class="main-color">
-                            <a class="effect" href="https://www.instagram.com/sauravrajbahak/"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+           <label> <input class="dark_switch" type="radio" name="color_style" id="is_light" value="light" checked="checked" /> Light</label>
+		<label> <input class="dark_switch" type="radio" name="color_style" id="is_dark" value="dark" />  Dark</label><br>
+			
+            <a href="https://themeforest.net/item/lina-creative-vcard-resume-cv/21217346?ref=celtano" class="waves-effect waves-light btn font-weight-500 purchase hoverable"><i class="fa fa-shopping-cart"></i> Purchase</a>
+            <div id="hideSwitcher">&times;</div>
         </div>
-    </section>
-    <!-- END HOME -->
-
-    <!-- ABOUT -->
-    <section id="about" class="section one-page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-5 animate-on-scroll" data-animation="slide-down">
-                    <img src="img/me.jpg" alt="about-img" class="about-img effect mb-30">
-                </div>
-                <div class="col-xs-12 col-md-7">
-                    <div class="about-content main-color">
-                         <!-- About tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="main-color-bg active">
-                                <a href="#about-tab" class="effect" aria-controls="about-tab" role="tab" data-toggle="tab">About Me</a>
-                            </li>
-                            <li role="presentation" class=" main-color-bg">
-                                <a href="#skills-tab" class="effect skills-init" aria-controls="skills-tab" role="tab" data-toggle="tab">My Skills</a>
-                            </li>
-                            <li role="presentation" class=" main-color-bg">
-                                <a href="#info-tab" class="effect" aria-controls="info-tab" role="tab" data-toggle="tab">My Info</a>
-                            </li>
-                        </ul>
-                        <!-- About Tab panes -->
-                        <div class="tab-content">
-                        	<!-- About me tab -->
-                            <div role="tabpanel" class="tab-pane fade in active" id="about-tab">
-                                <p>I am a professional Software Developer from Kathmandu, Nepal.</p>
-                            </div>
-                            <!-- Skills Tab -->
-                            <div role="tabpanel" class="tab-pane fade" id="skills-tab">
-                            	<div class="skills-bars text-center">
-
-									<div class="progress-bar-skills skills-top">
-										<div class="hide-skill-bar effect">
-											<span class="progress-bar-text" data-percent="90">WORDPRESS</span>
-										</div>
-										<p>100%</p>
-									</div>
-
-									<div class="progress-bar-skills skills-top">
-										<div class="hide-skill-bar effect">
-											<span class="progress-bar-text" data-percent="85">Photoshop</span>
-										</div>
-										<p>100%</p>
-									</div>
-
-									<div class="progress-bar-skills">
-										<div class="hide-skill-bar effect">
-											<span class="progress-bar-text" data-percent="98">BOOTSTRAP</span>
-										</div>
-										<p>100%</p>
-									</div>
-
-									<div class="progress-bar-skills">
-										<div class="hide-skill-bar effect">
-											<span class="progress-bar-text" data-percent="60">Core PHP</span>
-										</div>
-										<p>100%</p>
-									</div>
-
-                            	</div>
-                            </div>
-                            <!-- My Info Tab -->
-                            <div role="tabpanel" class="tab-pane fade" id="info-tab">
-                            	<div class="personal-info text-center">
-                            		<p><span>name: </span>Saurav Rajbahak</p>
-                            		<p><span>age: </span>24 years</p>
-                            		<p><span>job: </span>Software Developer</p>
-                            		<p><span>phone: </span>+977 9841294296</p>
-                            		<p><span>Address: </span>Kathmandu, Nepal</p>
-                            		<p><span>email: </span>sauravrajbahak@gmail.com</p>
-                            		<p><span>Freelance </span>Available</p>
-
-                                    <a href="img/saurav-CURRICULUM-VITAE.docx" class="fl-btn main-color-bg effect" download="Resume" ><i class="fa fa-download"></i> download Resume</a>
-                            	</div>
-                            </div>
-                        </div><!--  End About Tabs --> 
-                    </div>
-                </div>
-            </div><!-- End Row -->
-        </div><!-- End Container -->
-    </section>
-    <!-- END ABOUT -->
-
-    <!-- HOBBIES & INTERESTS -->
-    <div class="hobbies-section">
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="no-padd col-md-2 col-sm-4 col-xs-6">
-                    <div class="main-color-bg single-hobbie-con">
-                        <div class="single-hobbie effect text-center">
-                            <div class="hobbie-icon effect"><i class="icon-book-open"></i></div>
-                            <div class="hobbie-content effect">
-                                <h3 class="hobbie-title effect">READING</h3>
-                                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="no-padd col-md-2 col-sm-4 col-xs-6">
-                    <div class="main-color-bg single-hobbie-con">
-                        <div class="single-hobbie effect text-center">
-                            <div class="hobbie-icon effect"><i class="icon-target"></i></div>
-                            <div class="hobbie-content effect">
-                                <h3 class="hobbie-title effect">Games</h3>
-                                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="no-padd col-md-2 col-sm-4 col-xs-6">
-                    <div class="main-color-bg single-hobbie-con">
-                        <div class="single-hobbie effect text-center">
-                            <div class="hobbie-icon effect"><i class="icon-camera"></i></div>
-                            <div class="hobbie-content effect">
-                                <h3 class="hobbie-title effect">photography</h3>
-                                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="no-padd col-md-2 col-sm-4 col-xs-6">
-                    <div class="main-color-bg single-hobbie-con">
-                        <div class="single-hobbie effect text-center">
-                            <div class="hobbie-icon effect"><i class="icon-tools"></i></div>
-                            <div class="hobbie-content effect">
-                                <h3 class="hobbie-title effect">DRAWING</h3>
-                                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="no-padd col-md-2 col-sm-4 col-xs-6">
-                    <div class="main-color-bg single-hobbie-con">
-                        <div class="single-hobbie effect text-center">
-                            <div class="hobbie-icon effect"><i class="icon-hotairballoon"></i></div>
-                            <div class="hobbie-content effect">
-                                <h3 class="hobbie-title effect">travel</h3>
-                                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="no-padd col-md-2 col-sm-4 col-xs-6">
-                    <div class="main-color-bg single-hobbie-con">
-                        <div class="single-hobbie effect text-center">
-                            <div class="hobbie-icon effect"><i class="icon-video"></i></div>
-                            <div class="hobbie-content effect">
-                                <h3 class="hobbie-title effect">movies</h3>
-                                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- End Row -->
-        </div><!-- End Container -->
     </div>
-    <!-- END HOBBIES & INTERESTS -->
-
-    <!-- SERVICES -->
-    <section id="services" class="section one-page-section">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>My services</h2>
-                <img src="img/title-splash.png" alt="title-splash">
+    <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+    <!-- Live Style Switcher Ends - demo only -->
+    <!-- Wrapper Starts -->
+    <div class="wrapper">
+        <div id="bl-main" class="bl-main">
+            <!-- Top Left Section Starts -->
+            <section class="topleft">
+                <div class="bl-box row valign-wrapper">
+                    <div class="row valign-wrapper">
+                        <div class="title-heading">
+                            <div class="selector uppercase" id="selector">
+                                <h3 class="ah-headline p-none m-none">
+                                    <span class="font-weight-300">Hi There ! I'm</span>
+                                    <span class="ah-words-wrapper">
+										<b class="is-visible">Marco Simeone</b>
+										<b>a web designer</b>
+										<b>a photographer</b>
+										<b>a blogger</b>
+									</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Top Left Section Ends -->
+            <!-- About Section Starts -->
+            <section>
+                <!-- About Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <span class="title-bg">Resume</span>
+                        <h2 class="center-align">
+                            <span data-hover="About">About </span>
+                            <span data-hover="Me">Me</span>
+                        </h2>
+                    </div>
+                </div>
+                <!-- About Title Ends -->
+                <!-- About Expanded Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="About">About </span>
+                            <span data-hover="Me">Me</span>
+                        </h2>
+                        <span class="title-bg">Resume</span>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container infos">
+						<!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-vcard" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+						<!-- Divider Ends -->
+						<!-- Personal Informations Starts -->
+                        <div class="row">
+							<!-- Picture Starts -->
+                            <div class="col s12 m5 l4 xl3 profile-picture">
+								<img src="images/men-about.jpg" class="responsive-img my-picture" alt="My Photo">
+                            </div>
+							<!-- Picture Ends -->
+                            <div class="col s12 m7 l8 xl9 personal-info">
+                                <h6 class="uppercase"><i class="fa fa-user"></i> Personal Informations</h6>
+								<div class="col m12 l7 xl7 p-none">
+									<p class="second-font">I'm a Freelance Web Designer & Developer based in Madrid, Spain.<br>
+									I have serious passion for UI effects, animations and creating intuitive, 
+									with over a decade of experience.
+									</p>
+								</div>
+                                <div class="col s12 m12 l6 p-none">
+                                    <ul class="second-font list-1">
+                                        <li><span class="font-weight-600">First Name: </span>Marco</li>
+                                        <li><span class="font-weight-600">Last Name: </span>Simeone</li>
+                                        <li><span class="font-weight-600">Date of birth: </span>21 june 1990 </li>
+                                        <li><span class="font-weight-600">Nationality: </span>Spanish</li>
+										<li><span class="font-weight-600">Freelance: </span>Available</li>
+                                    </ul>
+                                </div>
+                                <div class="col s12 m12 l6 p-none">
+                                    <ul class="second-font list-2">
+                                        <li><span class="font-weight-600">Phone: </span>+34 21 18 40 10</li>
+                                        <li><span class="font-weight-600">Address: </span>Madrid, Spain</li>
+                                        <li><span class="font-weight-600">Email: </span>you@yourwebsite.com</li>
+                                        <li><span class="font-weight-600">Spoken Langages: </span>French - German</li>
+										<li><span class="font-weight-600">Skype: </span>marco.simeone</li>
+                                    </ul>
+                                </div>
+                                <a href="index-light.html#" class="col s12 m12 l4 xl4 btn font-weight-500">
+									Download Resume <i class="fa fa-file-pdf-o"></i>
+								</a>
+								<a href="blog-light.html" class="col s12 m12 l4 xl4 btn btn-blog font-weight-500">
+									My Blog <i class="fa fa-edit"></i>
+								</a>
+                            </div>
+                        </div>
+						<!-- Personal Informations Ends -->
+                    </div>
+					<!-- Resume Starts -->
+					<div class="resume-container">
+                        <div class="container">
+                            <div class="valign-wrapper row">
+								<!-- Resume Menu Starts -->
+                                <div class="resume-list col l4">
+                                    <div class="resume-list-item is-active" data-index="0" id="resume-list-item-0">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-briefcase"></i> Experience</h6>
+                                        </div>
+                                    </div>
+                                    <div class="resume-list-item" data-index="1" id="resume-list-item-1">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-graduation-cap"></i> Education</h6>
+                                        </div>
+                                    </div>
+                                    <div class="resume-list-item" data-index="2" id="resume-list-item-2">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-star"></i> Skills</h6>
+                                        </div>
+                                    </div>
+                                </div>
+								<!-- Resume Menu Ends -->
+								<!-- Resume Content Starts -->
+                                <div class="col s12 m12 l8 resume-cards-container">
+                                    <div class="resume-cards">
+										<!-- Experience Starts -->
+                                        <div class="resume-card resume-card-0" data-index="0">
+											<!-- Experience Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-briefcase"></i> Experience</div>
+                                            </div>
+											<!-- Experience Header Title Ends -->
+											<!-- Experience Content Starts -->
+                                            <div class="resume-card-body experience">
+                                                <div class="resume-card-body-container second-font">
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Web Designer - </span>Envato</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2015 - 2018</span>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium orci sit amet mi ullamcorper</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Web Developer - </span>Google</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2011 - 2015</span>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium orci sit amet mi ullamcorper</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Community Manager - </span>Adobe</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2007 - 2011</span>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium orci sit amet mi ullamcorper</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                </div>
+                                            </div>
+											<!-- Experience Content Starts -->
+                                        </div>
+										<!-- Experience Ends -->
+										<!-- Education Starts -->
+                                        <div class="resume-card resume-card-1" data-index="1">
+											<!-- Education Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-graduation-cap"></i> Education</div>
+                                            </div>
+											<!-- Education Header Title Starts -->
+                                            <div class="resume-card-body education">
+                                                <div class="resume-card-body-container second-font">
+													<!-- Single Education Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Engineering Diploma - </span>Oxford University</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2015 - 2018</span>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium orci sit amet mi ullamcorper</p>
+                                                    </div>
+													<!-- Single Education Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Education Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Masters Degree - </span>Paris University</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2011 - 2015</span>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium orci sit amet mi ullamcorper</p>
+                                                    </div>
+													<!-- Single Education Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Education Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Bachelor Degree - </span>Berlin Higher Institute</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2007 - 2011</span>
+														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium orci sit amet mi ullamcorper</p>
+                                                    </div>
+													<!-- Single Education Ends -->
+                                                </div>
+                                            </div>
+                                        </div>
+										<!-- Education Ends -->
+										<!-- Skills Starts -->
+                                        <div class="resume-card resume-card-2" data-index="2">
+											<!-- Skills Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-star"></i> Skills</div>
+                                            </div>
+											<!-- Skills Header Title Starts -->
+                                            <div class="resume-card-body skills">
+                                                <div class="resume-card-body-container second-font">
+                                                    <div class="row">
+														<!-- Skills Row Starts -->
+                                                        <div class="col s6">
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">html</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">javascript</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">css</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">php</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">jquery</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">angular js</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+                                                        </div>
+														<!-- Skills Row Ends -->
+														<!-- Skills Row Starts -->
+                                                        <div class="col s6">
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">wordpress</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">joomla</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">magento</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">drupal</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">Adobe Photoshop</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+																<h6 class="uppercase">Adobe illustrator</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i></p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+                                                        </div>
+														<!-- Skills Row Ends -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+										<!-- Skills Ends -->
+                                    </div>
+                                </div>
+								<!-- Resume Content Ends -->
+                            </div>
+                        </div>
+                    </div>
+					<!-- Resume Ends -->
+					<!-- Fun Facts Starts -->
+                    <div class="container badges">
+                        <div class="row">
+                            <!-- Fact Badge Item Starts -->
+                            <div class="col s12 m4 l4 center-align">
+                                <h3>
+                                    <i class="fa fa-suitcase"></i>
+									<span class="font-weight-700">7+</span>
+                                </h3>
+                                <h6 class="uppercase font-weight-500">Years Experience</h6>
+                            </div>
+                            <!-- Fact Badge Item Ends -->
+                            <!-- Fact Badge Item Starts -->
+                            <div class="col s12 m4 l4 center-align">
+                                <h3>
+                                    <i class="fa fa-check-square"></i>
+									<span class="font-weight-700">89+</span>
+                                </h3>
+                                <h6 class="uppercase font-weight-500">Done Projects</h6>
+                            </div>
+                            <!-- Fact Badge Item Ends -->
+                            <!-- Fact Badge Item Starts -->
+                            <div class="col s12 m4 l4 center-align">
+                                 <h3>
+                                    <i class="fa fa-heart"></i>
+									<span class="font-weight-700">77+</span>
+                                </h3>
+                                <h6 class="uppercase font-weight-500">Happy customers</h6>
+                            </div>
+                            <!-- Fact Badge Item Ends -->
+                        </div>
+                    </div>
+					<!-- Fun Facts Ends -->
+                </div>
+                <!-- End Expanded About -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- About Ends -->
+            <!-- Portfolio Starts -->
+            <section id="bl-work-section">
+				<!-- Portfolio Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <span class="title-bg">works</span>
+                        <h2 class="center-align">
+                            <span data-hover="my">my </span>
+                            <span data-hover="portfolio">portfolio</span>
+                        </h2>
+                    </div>
+                </div>
+				<!-- Portfolio Title Ends -->
+                <!-- Portfolio Expanded Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="my">my </span>
+                            <span data-hover="portfolio">portfolio</span>
+                        </h2>
+                        <span class="title-bg">works</span>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container">
+                        <!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-suitcase" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+                        <!-- Divider Ends -->
+                        <div class="row center-align da-thumbs" id="bl-work-items">
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-1">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-1.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Image Project</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-2">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-2.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Slider Project</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-3">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-3.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Youtube Video</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-4">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-4.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Local Video</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-5">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-5.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Image Project</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-6">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-6.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Image Project</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-7">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-7.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Image Project</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l3 xl3" data-panel="panel-8">
+                                <a href="index-light.html#">
+									<img class="responsive-img" src="images/projects/project-8.jpg" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-400 uppercase">Image Project</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Expanded Ends -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- Portfolio Section Ends -->
+            <!-- Contact Section Starts -->
+            <section>
+				<!-- Contact Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <span class="title-bg">Contact</span>
+                        <h2 class="center-align">
+                            <span data-hover="get">get </span>
+                            <span data-hover="in touch">in touch</span>
+                        </h2>
+                    </div>
+                </div>
+				<!-- Contact Title Ends -->
+                <!-- Expanded Contact Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="get">get </span>
+                            <span data-hover="in touch">in touch</span>
+                        </h2>
+						<span class="title-bg">Contact</span>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container">
+                        <!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-envelope-open" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+                        <!-- Divider Ends -->
+                        <div class="row contact">
+							<!-- Contact Infos Starts -->
+                            <div class="col s12 m5 l3 xl3 leftside">
+								<!-- Contacts Starts -->
+                                <h6 class="font-weight-500 uppercase">Phone</h6>
+                                <span class="font-weight-400 second-font"><i class="fa fa-phone"></i> +34 62 11 84 01</span>
+								<h6 class="font-weight-500 uppercase">Email</h6>
+								<span class="font-weight-400 second-font"><i class="fa fa-envelope"></i> you@youwebsite.com</span>
+								<h6 class="font-weight-500 uppercase">Address</h6>
+								<span class="font-weight-400 second-font"><i class="fa fa-home"></i>  Madrid, Spain</span><br>
+								<span class="font-weight-400 second-font">123 Disney Street, Madrid</span>
+								<!-- Contacts Ends -->
+								<!-- Social Media Profiles Starts -->
+                                <h6 class="font-weight-500 uppercase">Social Profiles</h6>
+                                <div class="social">
+                                    <ul class="list-inline social social-intro center-align p-none">
+                                        <li class="facebook"><a href="index-light.html#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="twitter"><a href="index-light.html#"><i class="fa fa-twitter"></i></a></li>
+                                        <li class="google-plus"><a href="index-light.html#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li class="linkedin"><a href="index-light.html#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+								<!-- Social Media Profiles Ends -->
+                            </div>
+							<!-- Contact Infos Ends -->
+							<!-- Contact Form Starts -->
+                            <div class="col s12 m7 l9 xl9 rightside">
+								<h6 class="uppercase m-none">Feel free to drop me a line</h6>
+								<div class="row">
+									<p class="col s12 m12 l7 xl7 second-font">
+										If you have any suggestion, project or even you want to say Hello.. please fill out the form below and I will reply you shortly.
+									</p>
+								</div>
+                                <form class="contactform" method="post" action="php/process-form.php.html">
+                                    <!-- Name Field Starts -->
+                                    <div class="input-field second-font">
+                                        <i class="fa fa-user prefix"></i>
+                                        <input id="name" name="name" type="text" class="validate" required>
+                                        <label class="font-weight-400" for="name">Your Name</label>
+                                    </div>
+                                    <!-- Name Field Ends -->
+                                    <!-- Email Field Starts -->
+                                    <div class="input-field second-font">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input id="email" type="email" name="email" class="validate" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                    <!-- Email Field Ends -->
+                                    <!-- Comment Textarea Starts -->
+                                    <div class="input-field second-font">
+                                        <i class="fa fa-comments prefix"></i>
+                                        <textarea id="comment" name="comment" class="materialize-textarea" required></textarea>
+                                        <label for="comment">Your Comment</label>
+                                    </div>
+                                    <!-- Comment Textarea Ends -->
+									<!-- Submit Form Button Starts -->
+                                    <div class="col s12 m12 l4 xl4 submit-form">
+                                        <button class="btn font-weight-500" type="submit" name="send">
+											Send Message <i class="fa fa-send"></i>
+										</button>
+                                    </div>
+                                    <!-- Submit Form Button Ends -->
+                                    <div class="col s12 m12 l8 xl8 form-message">
+                                        <span class="output_message center-align font-weight-500 uppercase"></span>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Contact Form Ends -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Expanded Contact Ends -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- Contact Section Ends -->
+            <!-- Portfolio Panel Items Starts -->
+            <div class="bl-panel-items" id="bl-panel-work-items">
+				<!-- Project Starts -->
+                <div data-panel="panel-1">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <img class="responsive-img" src="images/projects/project-1.jpg" alt="project" />
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Image Project</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">Envato</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, html, css, javascript</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-2">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="index-light.html#one!"><img class="responsive-img" src="images/projects/project-2.jpg" alt="project" ></a>
+                                <a class="carousel-item" href="index-light.html#two!"><img class="responsive-img" src="images/projects/project-1.jpg" alt="project" ></a>
+                                <a class="carousel-item" href="index-light.html#three!"><img class="responsive-img" src="images/projects/project-3.jpg" alt="project" ></a>
+                                <a class="carousel-item" href="index-light.html#four!"><img class="responsive-img" src="images/projects/project-4.jpg" alt="project" ></a>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Slider Project</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">Themeforest</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, html, css, javascript</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-3">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <div class="videocontainer">
+                                <iframe class="youtube-video" src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Youtube Video</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">Photodune</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">Adobe After Effects, Adobe Audition</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-4">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <video id="video" class="responsive-video" controls poster="images/projects/video/video-poster.png">
+								<source src="images/projects/video/video.mp4" type="video/mp4">
+							</video>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Local Video</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">Videohive</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">Adobe After Effects, Movie Maker</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-5">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <img src="images/projects/project-5.jpg" alt="project" />
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Image Project</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">Graphicriver</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">Adobe Photoshop, Gimp</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-6">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <img src="images/projects/project-6.jpg" alt="project" />
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Image Project</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">Activeden</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">Adobe Flash, Paint</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-7">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <img src="images/projects/project-7.jpg" alt="project" />
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Image Project</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">3D Ocean</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">3DS Max, Adobe Photoshop</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-8">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6">
+                            <img src="images/projects/project-8.jpg" alt="project" />
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6">
+                            <h3 class="font-weight-600 white-text uppercase">Image Project</h3>
+                            <ul class="project-details white-text second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-600"> Client </span>: <span class="font-weight-400 uppercase">Audiojungle</span></li>
+                                <li><i class="fa fa-calendar"></i><span class="font-weight-600"> Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-600"> Used Technologies</span> : <span class="font-weight-400 uppercase">Adobe Audition, Adobe Premiere</span></li>
+                            </ul>
+                            <hr>
+                            <p class="white-text second-font">Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
+                            <a href="index-light.html#" class="waves-effect waves-light btn font-weight-500">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+                <!-- Portfolio Navigation Starts -->
+                <nav>
+                    <!-- Previous Work Icon Starts -->
+                    <span class="control-button bl-previous-work uppercase font-weight-700"><i class="fa fa-chevron-left"></i></span>
+                    <!-- Previous Work Icon Ends -->
+                    <!-- Close Work Icon Starts -->
+                    <span class="control-button fa fa-close fa-2x bl-icon-close center-align" id="bl-icon-close"></span>
+                    <!-- Close Work Icon Ends -->
+                    <!-- Next Work Icon Starts -->
+                    <span class="control-button bl-next-work uppercase font-weight-700"><i class="fa fa-chevron-right"></i></span>
+                    <!-- Previous Work Icon Ends -->
+                </nav>
+                <!-- Portfolio Navigation Ends -->
             </div>
-            <div class="row">
-
-		    	<div class="col-md-4 col-sm-6">
-		    		<div class="single-service mb-30">
-		    			<div class="front-service-box text-center">
-		    				<div class="service-icon main-color">
-		    					<i class="fa fa-laptop"></i>
-		    				</div>
-		    				<h3 class="main-color">WEB DESIGN</h3>
-		    			</div>
-
-		    			<div class="back-service-box text-center">
-		    				<div class="light-icon main-color">
-		    					<i class="fa fa-laptop"></i>
-		    				</div>
-		    				<h4 class="main-color">WEB DESIGN</h4>
-		    				<p>A elementum ligula ultrices praesent scelerisque suspendisse scelerisque a aenean hac montes voluptate velit esse cillum dolore eu.</p>
-		    			</div>
-		    		</div>
-		    	</div>
-
-		    	<div class="col-md-4 col-sm-6">
-		    		<div class="single-service mb-30">
-		    			<div class="front-service-box text-center">
-		    				<div class="service-icon main-color">
-		    					<i class="fa fa-css3"></i>
-		    				</div>
-		    				<h3 class="main-color">WEB DEVELOPMENT</h3>
-		    			</div>
-
-		    			<div class="back-service-box text-center">
-		    				<div class="light-icon main-color">
-		    					<i class="fa fa-css3"></i>
-		    				</div>
-		    				<h4 class="main-color">WEB DEVELOPMENT</h4>
-		    				<p>A elementum ligula ultrices praesent scelerisque suspendisse scelerisque a aenean hac montes voluptate velit esse cillum dolore eu.</p>
-		    			</div>
-		    		</div>
-		    	</div>
-
-		    	<div class="col-md-4 col-sm-6">
-		    		<div class="single-service mb-30">
-		    			<div class="front-service-box text-center">
-		    				<div class="service-icon main-color">
-		    					<i class="fa fa-picture-o"></i>
-		    				</div>
-		    				<h3 class="main-color">GALLERY CREATION</h3>
-		    			</div>
-
-		    			<div class="back-service-box text-center">
-		    				<div class="light-icon main-color">
-		    					<i class="fa fa-picture-o"></i>
-		    				</div>
-		    				<h4 class="main-color">GALLERY CREATION</h4>
-		    				<p>A elementum ligula ultrices praesent scelerisque suspendisse scelerisque a aenean hac montes voluptate velit esse cillum dolore eu.</p>
-		    			</div>
-		    		</div>
-		    	</div>
-
-		    	<div class="col-md-4 col-sm-6">
-		    		<div class="single-service mb-30">
-		    			<div class="front-service-box text-center">
-		    				<div class="service-icon main-color">
-		    					<i class="fa fa-cogs"></i>
-		    				</div>
-		    				<h3 class="main-color">GROUP TASKS</h3>
-		    			</div>
-
-		    			<div class="back-service-box text-center">
-		    				<div class="light-icon main-color">
-		    					<i class="fa fa-cogs"></i>
-		    				</div>
-		    				<h4 class="main-color">GROUP TASKS</h4>
-		    				<p>A elementum ligula ultrices praesent scelerisque suspendisse scelerisque a aenean hac montes voluptate velit esse cillum dolore eu.</p>
-		    			</div>
-		    		</div>
-		    	</div>
-
-		    	<div class="col-md-4 col-sm-6">
-		    		<div class="single-service mb-30">
-		    			<div class="front-service-box text-center">
-		    				<div class="service-icon main-color">
-		    					<i class="fa fa-anchor"></i>
-		    				</div>
-		    				<h3 class="main-color">FEATURED SERVICES</h3>
-		    			</div>
-
-		    			<div class="back-service-box text-center">
-		    				<div class="light-icon main-color">
-		    					<i class="fa fa-anchor"></i>
-		    				</div>
-		    				<h4 class="main-color">FEATURED SERVICES</h4>
-		    				<p>A elementum ligula ultrices praesent scelerisque suspendisse scelerisque a aenean hac montes voluptate velit esse cillum dolore eu.</p>
-		    			</div>
-		    		</div>
-		    	</div>
-
-		    	<div class="col-md-4 col-sm-6">
-		    		<div class="single-service mb-30">
-		    			<div class="front-service-box text-center">
-		    				<div class="service-icon main-color">
-		    					<i class="fa fa-life-ring"></i>
-		    				</div>
-		    				<h3 class="main-color">ONLINE SUPPORT</h3>
-		    			</div>
-
-		    			<div class="back-service-box text-center">
-		    				<div class="light-icon main-color">
-		    					<i class="fa fa-life-ring"></i>
-		    				</div>
-		    				<h4 class="main-color">ONLINE SUPPORT</h4>
-		    				<p>A elementum ligula ultrices praesent scelerisque suspendisse scelerisque a aenean hac montes voluptate velit esse cillum dolore eu.</p>
-		    			</div>
-		    		</div>
-		    	</div>
-
-            </div><!-- End Row -->
-        </div><!-- End Container -->
-    </section>
-    <!-- SERVICES -->
-
-    <!-- FUN FACTS -->
-    <div class="section parallax-section fun-facts-section">
-        <div class="container">
-            <div class="row timer-con">
-                <div class="col-xs-12 col-sm-3">
-                    <div class="count text-center effect mb-30">
-                        <i class="main-color icon-layers"></i>
-                        <p class="timer" data-from="0" data-to="2800">0</p>
-                        <p>PROJECTS FINISHED</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="count text-center effect mb-30">
-                        <i class="main-color icon-happy"></i>
-                        <p class="timer" data-from="0" data-to="1070">0</p>
-                        <p>SATISFIED CLIENTS</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="count text-center effect mb-30">
-                        <i class="main-color icon-strategy"></i>
-                        <p class="timer" data-from="0" data-to="586">0</p>
-                        <p>Awward Winning</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <div class="count text-center effect mb-30">
-                        <i class="main-color icon-alarmclock"></i>
-                        <p class="timer" data-from="0" data-to="2804">0</p>
-                        <p>Working Hours</p>
-                    </div>
-                </div>
-            </div> <!-- End Row -->
-        </div> <!-- End Container -->
+            <!-- Portfolio Panel Items Ends -->
+        </div>
     </div>
-    <!-- END FUN FACTS -->
+    <!-- Wrapper Ends -->
 
-    <!-- WORK -->
-    <section id="work" class="section one-page-section">
-        <div class="container">
+    <!-- Template JS Files -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.animatedheadline.js"></script>
+    <script src="js/boxlayout.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/custom.js"></script>
 
-            <div class="section-title">
-                <h2>My Portfolio</h2>
-                <img src="img/title-splash.png" alt="title-splash">
-            </div>
+    <!-- Live Style Switcher JS File - only demo -->
+    <script src="js/styleswitcher.js"></script>
+</body>
 
-            <div class="row">
-                <div class="col-xs-12">
-                    <ul id="work-list" class="text-center">
-                        <li class="main-color-bg effect">
-                            <a href="#" class="filter main-color filter-active fl-btn effect" data-filter="all">all</a>
-                        </li>
-                        <li class="main-color-bg effect">
-                            <a href="#" class="filter main-color fl-btn effect" data-filter="web">wordpress</a>
-                        </li>
-                        <li class="main-color-bg effect">
-                            <a href="#" class="filter main-color fl-btn effect" data-filter="design">design</a>
-                        </li>
-                        <li class="main-color-bg effect">
-                            <a href="#" class="filter main-color fl-btn effect" data-filter="photography">photography</a>
-                        </li>
-                        <li class="main-color-bg effect">
-                            <a href="#" class="filter main-color fl-btn effect" data-filter="Music">Music</a>
-                        </li>
-                    </ul>
-                </div>
-            </div> <!-- End Row -->
-
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-6 col-md-4 work-item web effect">
-                    <div class="single-work mb-30">
-                        <img class="effect" src="img/lspa.png" alt="work-1">
-                        <div class="text-center work-overlay effect">
-                            <div class="work-links">
-                                <a href="single-portfolio.html" class="pf-link ver-center effect"><i class="fa fa-link"></i></a>
-                                <a href="img/lspa.png" class="popup-link ver-center effect"><i class="fa fa-search"></i></a>
-                            </div>
-                            <h3 class="hor-center">LSPA</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 work-item design effect">
-                    <div class="single-work mb-30">
-                        <img class="effect" src="img/p-2.jpg" alt="work-2">
-                        <div class="text-center work-overlay effect">
-                            <div class="work-links">
-                                <a href="single-portfolio.html" class="pf-link ver-center effect"><i class="fa fa-link"></i></a>
-                                <a href="img/p-2.jpg" class="popup-link ver-center effect"><i class="fa fa-search"></i></a>
-                            </div>
-                            <h3 class="hor-center">Project Title</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 work-item photography effect">
-                    <div class="single-work mb-30">
-                        <img class="effect" src="img/p-3.jpg" alt="work-3">
-                        <div class="text-center work-overlay effect">
-                            <div class="work-links">
-                                <a href="single-portfolio.html" class="pf-link ver-center effect"><i class="fa fa-link"></i></a>
-                                <a href="img/p-3.jpg" class="popup-link ver-center effect"><i class="fa fa-search"></i></a>
-                            </div>
-                            <h3 class="hor-center">Project Title</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 work-item design effect">
-                    <div class="single-work mb-30">
-                        <img class="effect" src="img/p-4.jpg" alt="work-4">
-                        <div class="text-center work-overlay effect">
-                            <div class="work-links">
-                                <a href="single-portfolio.html" class="pf-link ver-center effect"><i class="fa fa-link"></i></a>
-                                <a href="img/p-4.jpg" class="popup-link ver-center effect"><i class="fa fa-search"></i></a>
-                            </div>
-                            <h3 class="hor-center">Project Title</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 work-item Music effect">
-                    <div class="single-work mb-30">
-                        <img class="effect" src="img/p-5.jpg" alt="work-5">
-                        <div class="text-center work-overlay effect">
-                            <div class="work-links">
-                                <a href="single-portfolio.html" class="pf-link ver-center effect"><i class="fa fa-link"></i></a>
-                                <a href="img/p-5.jpg" class="popup-link ver-center effect"><i class="fa fa-search"></i></a>
-                            </div>
-                            <h3 class="hor-center">Project Title</h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-4 work-item photography effect">
-                    <div class="single-work mb-30">
-                        <img class="effect" src="img/p-6.jpg" alt="work-6">
-                        <div class="text-center work-overlay effect">
-                            <div class="work-links">
-                                <a href="single-portfolio.html" class="pf-link ver-center effect"><i class="fa fa-link"></i></a>
-                                <a href="img/p-6.jpg" class="popup-link ver-center effect"><i class="fa fa-search"></i></a>
-                            </div>
-                            <h3 class="hor-center">Project Title</h3>
-                        </div>
-                    </div>
-                </div>
-
-            </div> <!-- End Row -->
-        </div> <!-- End Container -->
-    </section>
-    <!-- End WORK -->
-
-    <!-- TESTIMONIALS -->
-    <div class="section parallax-section testimonials-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="owl-carousel testimonials-carousel">
-
-                        <div class="one-testimonial text-center">
-                            <p class="tsm-name">Dan Wellman</p>
-                            <p>CEO & founder.</p>
-
-                            <figure class="tsm-avatar main-color">
-                              <img src="" alt="testimonial-img-1">
-                            </figure>
-
-                            <p class="tsm-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the consectetuer , when an unknown printer took a galley of type and scrambled typesetting consectetuer to make it a type specimen book.</p>
-                        </div>
-
-                        <div class="one-testimonial text-center">
-                            <p class="tsm-name">Barney Smith</p>
-                            <p>Project Manager.</p>
-
-                            <figure class="tsm-avatar main-color">
-                              <img src="" alt="testimonial-img-2">
-                            </figure>
-
-                            <p class="tsm-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the consectetuer , when an unknown printer took a galley of type and scrambled typesetting consectetuer to make it a type specimen book.</p>
-                        </div>
-
-                        <div class="one-testimonial text-center">
-                            <p class="tsm-name">Jeffrey Way</p>
-                            <p>Software Engineer.</p>
-
-                            <figure class="tsm-avatar main-color">
-                              <img src="" alt="testimonial-img-3">
-                            </figure>
-
-                            <p class="tsm-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the consectetuer , when an unknown printer took a galley of type and scrambled typesetting consectetuer to make it a type specimen book.</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div><!-- end row -->
-        </div> <!-- End Container -->
-    </div>
-    <!-- END TESTIMONIALS -->
-
-    <!-- NEWS -->
-    <section id="news" class="section one-page-section">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>My Blogs</h2>
-                <img src="img/title-splash.png" alt="title-splash">
-            </div>
-
-            <div class="row">
-                
-                <div class="col-xs-12 col-md-4 animate-on-scroll" data-animation="slide-up" data-delay="0.4">
-                    <div class="single-blog mb-30">
-                        <div class="blog-thumbnail">
-                            <img src="img/b-1.jpg" alt="blog-3">
-                            <div class="b-thumbnail-overlay text-center effect">
-                                <a href="single-post.html" class="main-color-bg center"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="blog-details">
-                            <h3 class="blog-title main-color">
-                                <a href="single-post.html" class="effect">Creative And Innovative Navigation Designs</a>
-                            </h3>
-                            <p class="blog-meta">By Admin / In Design</p>
-                            <p class="blog-text">Lorem ipsum dolor sit tempo amet eiusmod, do tempo cbibendumr sommodo incid idunt ut labore when an unknown ... </p>
-
-                            <a href="single-post.html" class="sb-link">
-                                <span class="main-color"> Read More <i class="fa fa-long-arrow-right effect"></i></span>
-                            </a>
-                        </div>
-                        <div class="border-animation main-color-bg">
-                            <div class="blog-line effect"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-xs-12 col-md-4 animate-on-scroll" data-animation="slide-up" data-delay="0.6">
-                    <div class="single-blog mb-30">
-                        <div class="blog-thumbnail">
-                            <img src="img/b-2.jpg" alt="blog-2">
-                            <div class="b-thumbnail-overlay text-center effect">
-                                <a href="single-post.html" class="main-color-bg center"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="blog-details">
-                            <h3 class="blog-title main-color">
-                                <a href="single-post.html" class="effect">Don't Just Be A Designer, Be A Good One</a>
-                            </h3>
-                            <p class="blog-meta">By Admin / In Tech</p>
-                            <p class="blog-text">Lorem ipsum dolor sit tempo amet eiusmod, do tempo cbibendumr sommodo incid idunt ut labore when an unknown ... </p>
-
-                            <a href="single-post.html" class="sb-link">
-                                <span class="main-color"> Read More <i class="fa fa-long-arrow-right effect"></i></span>
-                            </a>
-                        </div>
-                        <div class="border-animation main-color-bg">
-                            <div class="blog-line effect"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-md-4 animate-on-scroll" data-animation="slide-up" data-delay="0.8">
-                    <div class="single-blog mb-30">
-                        <div class="blog-thumbnail">
-                            <img src="img/b-2.jpg" alt="blog-1">
-                            <div class="b-thumbnail-overlay text-center effect">
-                                <a href="single-post.html" class="main-color-bg center"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="blog-details">
-                            <h3 class="blog-title main-color">
-                                <a href="single-post.html" class="effect">Designed for Everyone, Everywhere</a>
-                            </h3>
-                            <p class="blog-meta">By Admin / In Travel</p>
-                            <p class="blog-text">Lorem ipsum dolor sit tempo amet eiusmod, do tempo cbibendumr sommodo incid idunt ut labore when an unknown ... </p>
-
-                            <a href="single-post.html" class="sb-link">
-                                <span class="main-color"> Read More <i class="fa fa-long-arrow-right effect"></i></span>
-                            </a>
-                        </div>
-                        <div class="border-animation main-color-bg">
-                            <div class="blog-line effect"></div>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- end row -->
-        </div> <!-- End Container -->
-    </section>
-    <!-- END NEWS -->
-
-    <!-- CONTACT -->
-    <!-- <section id="contact" class="section parallax-section one-page-section">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Contact Me</h2>
-                <img src="img/title-splash.png" alt="title-splash">
-            </div>
-
-            <div class="row">
-
-                <div class="col-xs-12 col-md-10 col-md-offset-1 animate-on-scroll" data-animation="slide-down">
-                    <form id="contact-form" method="post" action="mail/contact.php.html">
-                    	
-                    	<div class="row">
-	                        <div class="col-sm-4">
-	                            <input type="text" name="name" id="name" class="input-field" required="required" placeholder="Name">
-	                            <span class="name-error text-center mb-30"></span>
-	                        </div>
-	                        <div class="col-sm-4">
-	                            <input type="email" name="email" id="email" class="input-field" required="required" placeholder="Email">
-	                            <span class="email-error text-center mb-30"></span>
-	                        </div>
-	                        <div class="col-sm-4">
-	                            <input type="text" name="subject" id="subject" class="input-field" required="required" placeholder="Subject">
-	                            <span class="subject-error text-center mb-30"></span>
-	                        </div>
-	                        <div class="col-xs-12">
-	                            <textarea name="message" id="message" class="input-field" required="required" placeholder="Message"></textarea>
-	                            <span class="message-error text-center mb-30"></span>
-	                        </div>
-                    	</div>
-
-                        <div id="form-message" class="error mb-30 text-center"></div>
-
-                        <button type="submit" class="fl-btn main-color-bg effect submit-btn">
-                        	<i class="fa fa-send"></i> Send Message
-                        </button>
-
-                    </form>
-                </div>
-
-            </div>
-        </div> 
-    </section> -->
-    <!-- END CONTACT -->
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-            	<div class="col-md-3 footer-name">
-	                <p>&copy; Saurav Rajbahak.</p>
-	            </div>
-	            <div class="col-md-9 footer-copyright">
-                    <p>Contact : 9841294296<br>
-                        <ul class="home-social-list footer-social-icon">
-                        <li class="main-color">
-                            <a class="effect" href="https://www.facebook.com/sauravrb"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li class="main-color">
-                            <a class="effect" href="https://twitter.com/SauravRajbahak"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li class="main-color">    
-                            <a class="effect" href="https://www.pinterest.com/sauravrajbahak/"><i class="fa fa-pinterest-p"></i></a>
-                        </li>
-                        <li class="main-color">
-                            <a class="effect" href="https://www.linkedin.com/in/saurav-rajbahak-b9106815a/"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li class="main-color">
-                            <a class="effect" href="https://www.instagram.com/sauravrajbahak/"><i class="fa fa-instagram"></i></a>
-                        </li>
-                    </ul></p>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- End Container -->
-    </footer>
-    <!-- END FOOTER -->
-
-    <!-- Scroll To Top Button -->
-    <a href="#" class="scroll-up bm-btn main-color-bg effect">
-        <i class="fa fa-angle-up center bm-btn-txt"></i>
-    </a>
-    <!-- End Scroll To Top Button -->
-                            
-    <!-- js placed at the end of the document so the pages load faster -->
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- jQuery Typer JS -->
-    <script src="js/jquery.typer.js"></script>
-    <!-- jQuery Count To JS -->
-    <script src="js/jquery.countTo.js"></script>
-    <!-- Magnific Popup core JS file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- Owl Carousel JS -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Custom js -->
-    <script src="js/main.js"></script>
-
-  <div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_dahim&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
 </html>

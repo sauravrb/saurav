@@ -2009,7 +2009,15 @@ body.blog .pagination li a i {
 
 
 /* added css */
-/* 
-.about-me{
-	background-image: url('../images/resume.jpg');
-} */
+img.responsive-img, video.responsive-video {
+    height: 285px !important;
+}
+
+.LI-badge-container.vertical.dark {
+	height: 449px !important;
+	 width: 100% !important 
+}
+.contact-social{
+	background-color: #74b72a;
+    padding: 25px 0 25px 0 !important;
+}

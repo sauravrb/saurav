@@ -2027,6 +2027,9 @@ img.responsive-img, video.responsive-video {
 .aligncenter{
 	text-align: center;
 }
-.aligncenter .fa {
+/* .aligncenter .fa {
 	color: rgb(114, 182, 39);
+} */
+.aligncenter .fa {
+	color: rgb(2, 115, 200);
 }

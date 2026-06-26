@@ -52,7 +52,7 @@ body.blog .btn.back ,
 	border:1px solid #72b626;
 }
 .bl-main>section.topleft:before {
-	content:url('../../images/separators/green.png');
+	content:url('../../images/separators/blue.png');
 }
 */
 .page-title h2 span:first-child::before,

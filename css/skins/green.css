@@ -105,5 +105,5 @@ body.blog .btn.back ,
 	border:1px solid #0078d4;
 }
 .bl-main>section.topleft:before {
-	content:url('../../images/separators/green.png');
+	content:url('../../images/separators/blue.png');
 }
